@@ -6,7 +6,6 @@ layout: home
 list_title: ' '
 ---
 
-Welcome to Matt Duez's test homepage.
+Welcome to Matt Duez's homepage.
 
-| ![MagnetizedDisk](/assets/MagnetizedDisk.jpg){: width="250" } | sideways description | 
-| *This is an image* |
+{% include image.html url="/assets/MagnetizedDisk.jpg" width="width:50%" description="Image of a black hole surrounded by a magnetized accretion disk.  Simulation using the SpEC code.  Image credit:  WSU former student Fatemeh Nouri " %}

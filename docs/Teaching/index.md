@@ -17,21 +17,21 @@ Classes I have taught:
     Syllabus
 
 - Astronomy 345:  High-Energy Astrophysics  
-    Syllabus
+    [Syllabus]({% link /assets/Syllabi/Astro345.pdf %})
 
 - Astronomy 435:  Stellar Structure  
-    Syllabus
+    [Syllabus]({% link /assets/Syllabi/Astro435.pdf %})
 
 - Astronomy 436:  Galaxies and Cosmology  
-    Syllabus
+    [Syllabus]({% link /assets/Syllabi/Astro436.pdf %})
 
 - Physics 581:  Astrophysical Fluid Dynamics  
-    Syllabus
+    [Syllabus]({% link /assets/Syllabi/AstroFluids.pdf %})
 
 - Physics 581:  Classical Field Theory  
-    Syllabus
+    [Syllabus]({% link /assets/Syllabi/CFT.pdf %})
 
 - Physics 581:  General Relativity  
-    Syllabus
+    [Syllabus]({% link /assets/Syllabi/GR.pdf %})
 
 
