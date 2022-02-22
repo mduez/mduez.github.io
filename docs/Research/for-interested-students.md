@@ -16,7 +16,7 @@ Table of Contents
     - [Black holes](#black-holes)
     - [What equations go into a numerical relativity simulation](#what-equations-go-into-a-numerical-relativity-simulation)
 - [Thick disks and hypermassive stars](#thick-disks-and-hypermassive-stars)
-    - [Binary neutron star mergers](#binary-neutron-star-mergers)
+    - [Neutron stars and their binaries](#neutron-stars-and-their-binaries)
     - [Supramassive and hypermassive stars](#supramassive-and-hypermassive-stars)
     - [Dynamical vs secular evolution](#dynamical-vs-secular-evolution)
     - [Categories of astrophysical equilibria](#categories-of-astrophysical-equilibria)
@@ -195,6 +195,27 @@ spacetime curvature of a black hole can maintain itself.  It’s the
 most dramatic case one could imagine of spacetime curvature driven
 by its own dynamics.
 
+*But what if I just look at a black hole.  Won't I see something?*
+
+Remember, what you see when you look in a particular direction isn't
+necessarily what is *there* in that direction, just what light is hitting
+your eye coming from that direction.  Given some light sources near a
+black hole, one can trace the paths of light rays through the curved spacetime
+to determine what an observer at some location would see.  Often there is a "shadow" range of directions in which a close observer would see black.  This means that no light is coming to your eyes from these directions.
+
+*What if I stick my hand inside the horizon to feel what's going on inside?*
+
+This is not recommended.  To stay in one piece, the rest of you will
+be crossing inside soon afterward.  On the bright side, your hand that
+crosses the horizon first won't go numb--by the time nerve signals
+from your hand reach your head, your head will be inside the horizon.
+As a matter of fact, you won't even know when you've crossed the
+horizon.  It's empty space and locally won't seem in any way special.
+From the perspective of an observer right at the horizon, the horizon
+is moving outward at the speed of light, and the observer would need
+to move at the speed of light just to keep up.  (This can be seen by
+looking at the light cones above.)
+
 
 ### What equations go into a numerical relativity simulation  
 
@@ -205,14 +226,159 @@ waves.
 
 First, consider how one would simulate this system on a computer using
 Newtonian physics.  The neutron star is a fluid, so at each point it
-can be described by its density $$\rho$$, temperature $$T$$, and velocity
-$$\vec{v}$$.  These obey the equations of hydrodynamics:
+can be described by its density $$\rho$$, internal energy density $$U$$,
+and velocity $$\vec{v}$$.  These obey the equations of hydrodynamics:
 
 $$ \frac{\partial\rho}{\partial t} + \nabla\cdot(\rho v) = 0 $$
 
+$$ \frac{\partial}{\partial t}(\rho v^i)
++ \frac{\partial}{\partial x^j}(\rho v^i v^j + P\delta^{ij}) = \rho g^i $$
+
+$$ \frac{\partial}{\partial t}\left(\frac{1}{2}\rho v^2 + U\right)
++ \nabla\cdot\left[\left(\frac{1}{2}\rho v^2 + U + P\right)\right]
+ = \rho g\cdot v $$
+
+where $$P$$ is the pressure and
+$$\vec{g}=-\vec{\nabla}\phi$$ is the gravitational acceleration.  These
+equations are just the laws of conservation of mass, momentum, and
+energy, respectively.  The first, for example, just says, in the
+language of a partial differential equation, that the mass in a region
+only changes because of the flux of mass in and out through the
+region’s boundary.  To complete the description of the fluid, one
+must specify an *equation of state*, a rule for computing the pressure,
+e.g. a function $$P=P(\rho,U)$$.
+
+In a Newtonian simulation, the black hole is a point mass.  It has mass
+$$M_{\rm BH}$$ and position $$\vec{x}_{\rm BH}$$.  If we like, we can
+set by hand a "horizon radius" and arrange that any fluid matter
+inside this distance from the point mass is removed from the
+simulation, with its mass and momentum incorporated into the point
+mass.  The "black hole" will have its own equation of motion $$M_{\rm
+BH} \ddot {\vec{x}}_{\rm BH} = \ldots$$ which makes the point mass's
+momentum change because of forces from the fluid and momentum of
+matter that has "fallen in".
+
+The gravitational potential will come from the black hole and the
+neutron star:
+
+$$\nabla^2\phi = 4 \pi G [\rho + M_{\rm BH} \delta(\vec{x}-\vec{x}_{\rm BH})]$$.
+
+Gravitational waves don’t exist
+in Newtonian physics, but one can do an integral to get the quadrupole
+moment, measure its time-dependence, and estimate the gravitational
+wave signal from that.
+
+Having thought through the Newtonian way, you are now ready to
+appreciate how different things are in general relativity.  First,
+we’ll consider the evolution of the neutron star fluid.  That actually
+isn’t much different.  One still evolves the same conservation laws of
+mass, momentum, and energy.  They look almost like their Newtonian
+equivalents, and the differences aren’t interesting.  The big
+difference is in the other stuff.
+
+In Newtonian physics, gravity is a force caused by the field $$\phi$$.  In
+GR, there is no gravitational force; there is only curvature in the
+geometry.  The equivalent of $$\phi$$ is the spacetime metric tensor **g**.
+Recall that the metric tensor tells you how to measure the proper
+distance between nearby points.  In Newtonian physics, with the usual
+Cartesian coordinates, this is just the Pythagorean theorem:
+
+$$\Delta s^2 = \Delta x^2 + \Delta y^2 + \Delta z^2$$
+
+In special relativity, time and space intervals depend on the observing
+frame ("time dilation", "length contraction"), but there is a combination
+which is an invariant separation between events:
+
+$$\Delta s^2 = -c^2\Delta t^2 + \Delta x^2 + \Delta y^2 + \Delta z^2$$
+
+In the presence of curvilinear coordinates ($$x^0$$,$$x^1$$,
+$$x^2$$,$$x^3$$)--Note that there are four of them because spacetime is
+4D--and/or curvature, the equation will be more general.  It
+will still depend on quadratic combinations of the coordinate intervals
+$$\Delta x^a$$, but there may be a coefficient in front of each term, and
+each coefficient can be a function of space and time.
+
+$$\Delta s^2 = g_{ab}\Delta x^a\Delta x^b
+= g_{00}\Delta x^0\Delta x^0 + g_{01}\Delta x^0\Delta x^1 + \ldots
++ g_{22}\Delta x^2\Delta x^2$$
+
+The metric components $$g_{ab}$$ contain all the information about the
+spacetime.  In particular, they provide the light cones, which are the
+*null paths* for which $$\Delta s^2 = 0$$. They have their own equations
+of motion, which are partial
+differential equations and are in fact fairly similar to wave equations
+
+$$ \left(\frac{\partial^2}{\partial t^2} - \nabla^2\right) g_{ab}
+\sim 16\pi T_{ab} $$
+
+$$T_{ab}$$, the stress-energy tensor, contains information about the
+mass, energy, and momentum, which serve as sources of the spacetime
+curvature.   I put the $$\sim$$ sign because the above isn't exactly
+right.  The full Einstein field equations are a bit more complicated;
+they have nonlinear terms which made it difficult to figure out how to
+evolve them stably.  Those problems are solved now, though, so we
+needn’t bother about the nonlinear terms; they must be added, but they
+don’t change the general picture of what goes into these simulations.
+
+We still have to add the black hole and the gravitational waves,
+right?  Nope.  We’re done.  All of that is contained in the metric
+tensor.  Black holes and gravitational waves are just aspects of
+spacetime curvature.  Just setting $$g_{ab}$$ appropriately makes
+there be a black hole; just evolving $$g_{ab}$$ according to its field
+equations makes the black hole move and grow appropriately.  Waves of
+$$g_{ab}$$ propagating out to the outer boundaries just are
+gravitational waves.
+
+That’s what goes into a numerical relativity simulation.
+
+
 ## Thick disks and hypermassive stars  
 
-### Binary neutron star mergers  
+### Neutron stars and their binaries  
+
+Nearly all the NR work at WSU involves neutron stars in one way or
+another.  Neutron stars are fascinating objects, made of the densest
+known form of matter in the universe.  You know that in ordinary
+matter, nearly all of the mass is concentrated in the atomic nuclei,
+which take up a very small fraction of volume.  For an atom, the
+nucleus takes up $$\sim 10^{-15}$$ of the volume.  The nuclei
+themselves are incredibly dense, around $$10^{15}$$ g cm$${}^3$$.  The
+interior of neutron stars is nuclear matter, meaning it is the density
+of nuclei—no empty space in between.  One can imagine it as what would
+happen if the atomic nuclei in atoms were to be brought so close
+together that they touched and dissolved into a single gigantic
+nucleus.  A typical neutron star has a mass a little more than that of
+the sun and a radius of around a dozen kilometers (an oddly humanly
+comprehensible scale for an astronomical object).  It’s a city-sized
+atomic nucleus.
+
+Besides their high compaction, the important thing to know about
+neutron stars is that they are degenerate objects, meaning that the
+pressure that holds them up against their own gravity is not thermal
+pressure.  It is pressure that would be there even if the temperature
+were absolute zero.  The sources of pressure in neutron star matter
+are 1) nuclear forces, which can become repulsive if particles get too
+close together, and 2) kinetic energy that particles are forced to
+have just because of the Pauli Exclusion Principle even in the absence
+of thermal energy.  Because the effect of nonzero temperature is
+usually so small, neutron stars can usually be treated as “cold”
+objects, even when their temperature is billions of degrees.
+
+Two neutron stars caught in each other’s gravity will also form a
+binary system, will also emit gravitational waves that slowly extract
+orbital energy, will thus slowly spiral toward each other and
+eventually merge.  When two neutron stars merge, one would expect the
+result to be a more massive neutron star—after all, the nuclear
+density matter from the two neutron stars goes into this post-merger
+blob, and what else would one call something made out of that stuff?
+The issue with this is that there is a maximum mass a cold,
+nonspinning neutron star can have.  Above this mass, there is no
+equilibrium configuration (stable or otherwise).  The exact value of
+the maximum mass is not known, but adding two typical neutron star
+masses will often put one above this maximum for reasonable guesses of
+its value.  So, if the merger remnant were cold and nonspinning, it
+could not persist for long.
+
 
 ### Supramassive and hypermassive stars  
 
