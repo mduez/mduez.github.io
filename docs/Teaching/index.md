@@ -9,7 +9,7 @@ for the general public on the nature of science, its power and limitations, and 
 education.
 
 [A letter]({% link Teaching/for-graduate-students.md %}) for upper undergraduates and graduate
-students on the purpose of graduate education, and what comes after the "core".
+students on the purpose of graduate education.
 
 Classes I have taught:
 

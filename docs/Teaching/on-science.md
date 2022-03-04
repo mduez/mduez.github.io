@@ -81,7 +81,8 @@ that to doubt the pronouncements of scientific bodies is to be
 well-established or were so logically interconnected that to doubt one
 is to doubt them all.  As I have said, there is no authority called
 “science” to command your faith, and as a method of pursuing truth,
-science does not want your faith.  Even within physics and its
+science does not want your faith but if anything would prefer your skepticism.
+Even within physics and its
 daughter fields of chemistry and astronomy, some facts are better
 established, others more speculative.  The existence of dark matter is
 less certain than the laws of thermodynamics.  And physics is the gold
@@ -103,7 +104,7 @@ Take a specific claim—Faraday’s law (electromagnetic induction),
 Bernouili’s principle (fluid dynamics), Kirchhoff’s radiation laws,
 whatever.  Do you claim that these are social constructs?  Then I
 would say to that with cheap equipment you should perform the relevant
-simple experiments and see for yourself.  Having satisfied yourself on
+simple experiments and *see for yourself*.  Having satisfied yourself on
 the empirical matter, you may with the full blessing of the scientific
 method incorporate these facts into any metanarrative of your
 choosing.
@@ -130,9 +131,9 @@ University*.
 
 Like other disciplines, science is both expansive and limited in
 scope:  expansive because it takes all observable creation as its
-subject, limited because it considers only one aspect or mode of
+object of study, limited because it considers only one aspect or mode of
 things.  Its power comes from its limitation, because a particular
-mode of knowing suggests a particular mode of reasoning and
+mode of knowing suggests a particular mode of reasoning, a particular
 methodology.  Intellectual enterprises of this sort are called
 “disciplines” because those who participate in them must learn to
 conform their minds to the appropriate standards of understanding,
@@ -145,21 +146,21 @@ other, but must always be related to each other in some coherent
 whole.  If there are tensions or seeming contradictions, these should
 at least be recognized and treated as problems to inspire deeper
 investigation.  One learns the graciousness of intellectual
-argumentation, how not to take one arguing the opposite side as a
-personal enemy but as a friend and fellow seeker after the truth.
-True intellectual discourse is at once impersonal and also the bond of
-a community of surprising depth.  One learns receptiveness, a
-determination to let one’s conclusions be dictated not by prior
-prejudice or personal desire, but only by the object of study itself
-and the disciplinary strictures on the way of knowing it.  True
-intellectual work thus has a fundamentally contemplative, leisurely
-aspect (these words ultimately denoting intellectual receptivity).
-Above all, one learns patience and intellectual humility.  The
-problems of a discipline are hard; one should not expect any easy
-victories, and it is seldom the case that any position is obviously
-right.  One should expect that deeper investigation will reveal one’s
-current understanding to be fundamentally incomplete, and this
-prospect should fill one with excitement.
+argumentation, of cordial disagreement,how not to take one arguing the
+opposite side as a personal enemy but as a friend and fellow seeker
+after the truth.  True intellectual discourse is at once impersonal
+and also the bond of a community of surprising depth.  One learns
+receptiveness, a determination to let one’s conclusions be dictated
+not by prior prejudice or personal desire, but only by the object of
+study itself and the disciplinary strictures on the way of knowing it.
+True intellectual work thus has a fundamentally contemplative,
+leisurely aspect (these words ultimately denoting intellectual
+receptivity).  Above all, one learns patience and intellectual
+humility.  The problems of a discipline are hard; one should not
+expect any easy victories, and it is seldom the case that any position
+is obviously right.  One should expect that deeper investigation will
+reveal one’s current understanding to be fundamentally incomplete, and
+this prospect should fill one with excitement.
 
 The things themselves are more than any partial way of knowing reveals
 them to be; if we forget that, then we know them only as abstractions.
@@ -174,8 +175,8 @@ science.  Philosophy is the subject charged with understanding the
 relationship between disciplines.  Because of this unique role,
 philosophy is privileged or cursed never to be able to become a
 settled discipline with fixed methodology like others, despite the
-efforts of Descartes, Kant, Husserl, and lesser minds to “fix” this
-problem.  While there are professional scientists, professional
+efforts of Descartes, Kant, Husserl, and lesser minds to find a way
+to make it such.  While there are professional scientists, professional
 philosophers, professional historians, and professional literary
 critics, we are all amateur scientists when we notice and investigate
 contingent patterns in the world, amateur philosophers when we
