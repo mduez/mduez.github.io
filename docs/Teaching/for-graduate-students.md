@@ -94,7 +94,206 @@ Below, I will give examples of each of these things.
 
 ## The pressure of a gas falling toward a black hole
 
-in progress
+I love it when things fall into black holes.  The goal of this
+exercise is to see how to figure out what physics is important, and
+what you can safely ignore.  This almost always comes down to
+comparing timescales.  Each process in nature has an associated
+timescale (how long it takes to have an effect).  If the timescale is
+much longer than the time we are interested in, the process is
+unimportant and can be ignored.  Roughly speaking, shorter timescale
+means more important.  For the length of time we’re interested, let us
+use the time it takes to fall into or orbit the black hole, the
+free-fall timescale
+
+$$\tau_{\rm FF} \sim \sqrt{\frac{L^3}{G M_{\rm BH}}}$$
+
+(Actually, the gas will usually have some angular momentum which keeps
+it from falling directly in, so the gas settles to an accretion disk.
+The gas then falls in on the timescale on which it can transfer away
+its angular momentum, usually a much longer timescale.)
+
+
+Let us suppose that you know the mass density of the gas near the
+black hole and its temperature.  You may assume the temperature is
+between $$10^6$$ and $$10^11$$ K, but the density could be anything from
+$$10^{-20}$$ g cm$${}^{-3}$$ to $$10^14$$ g cm$${}^{-3}$$ (nuclear density).
+Let’s say the gas
+is hydrogen, or it was when it was far away and cool.  You’ll notice
+that even the lowest allowed temperature is much higher than the
+ionization energy for hydrogen (10 eV ~ $$10^5$$ K), so let’s assume the
+gas is ionized.  Then it’s a gas of free protons and electrons,
+assuming we can ignore nuclear reactions, which is an assumption we’d
+better check later.
+
+The challenge is to find the pressure $$P(\rho, T)$$, where $$\rho$$ is
+the mass density and $$T$$ is the temperature.  The relation between
+$$P$$, $$\rho$$, and $$T$$ is called the
+equation of state.  “Hey”, you might think, “I know an equation of
+state.  Here’s the EoS of an ideal gas.”
+
+$$P = n k_B T$$
+
+Very good.  This formula involves number density $$n$$ rather than mass
+density $$\rho$$, but if we assume its a proton-electron gas, we can
+easily convert between them.  Most of the mass is in protons, so the
+number density of protons is $$\rho/m_p$$.  By charge neutrality, the
+number density of electrons is the same.
+
+*But how do we know if this gas is an ideal gas?*
+
+As a matter of fact, perhaps I myself have already made an unjustified
+assumption, in that by giving you a temperature, I’ve assumed that the
+gas is in thermodynamic equilibrium (TE).  At very low densities, that
+might not be true.  We seldom think about it, but there’s no law of
+physics that says all gases have equilibrium
+(Maxwell-Boltzmann/Fermi-Dirac/Bose-Einstein) distribution functions.  What is
+true is that energy and momentum-exchanging interactions will drive
+the gas toward equilibrium.  Usually, the time to “thermalize”
+(i.e. equilibrate) is short compared to timescales of interest to your
+system, which is why you seldom think about it.
+
+Let’s say it takes a few interactions to bring the distribution to TE.
+How much time typically passes between collisions for a gas particle?
+First, we work out how far a particle goes between collisions, the
+mean free path.  One formula every physics student should know by
+heart is
+
+$$\ell = \frac{1}{n\sigma}$$
+
+where $$\ell$$ is the mean free path, $$n$$ is the number density of
+targets, and $$\sigma$$ is the target cross-section, which you’ll
+recall isn’t always the size of the target.  The cross section depends
+on the nature of the interaction.  For a proton-electron plasma, the
+interactions are Coulomb interactions.  The time between interactions
+will then be
+
+$$\tau_{\rm col} = \ell / v$$
+
+where $$v$$ is some characteristic speed of particles.
+
+In physics—and pay attention, because this is a very general
+point—there are usually two easy regimes.  First, the timescale
+associated with a process may be very long (compared to the timescale
+of interest), in which case the process can be ignored.  In our case,
+if the collision timescale is much longer than $$\tau_{\rm FF}$$, we can just
+ignore collisions.  Gas particles don’t directly interact with each
+other, but just feel the black hole’s gravity and the magnetic field
+in the gas (if any).  If the timescale for a process is very short, we
+can assume that it has proceeded to its equilibrium state and can
+instantaneously correct for changes in the system to maintain its
+equilibrium condition.  In our case, this means that for fast
+collisions (the usual case), we can just assume TE.  If $$\ell$$ is small
+compared to the size of the gas, our gas is a *fluid*, so that
+individual fluid parcels each come to their own equilibrium with their
+own temperature (local TE).  There is a third case—that the timescale
+of a process is the same order of magnitude as the timescale of
+interest, and that’s a pain, since it means you must add this process
+to the evolution equations of the system.
+
+Let’s say we’ve done this calculation and shown that $$\ell$$ and
+$$\tau_{\rm col}$$ are sufficiently small, so that the electrons and
+protons are in LTE and that both gases have the same temperature.
+Note that in some of the most interesting black hole accretion systems
+(low-density advection-dominated flows), this is not true, so checking
+it is by no means a useless exercise.
+
+Is the baryonic matter still a proton gas?  Again, usually we don’t
+think about that, but strong and weak nuclear reactions do happen.
+Weak interactions allow electrons and protons to turn into neutrons;
+strong interactions allow heavier, lower-energy nuclei to form.  The
+work one has to do is to, first, check to see which processes are
+energetically allowed, and then (again) work out an interaction
+timescale, usually from a cross-section.  Again, the timescale may be
+long (in which case ignore it), short (in which case assume
+equilibrium), or (and hope this doesn’t happen) the same as $$\tau_{\rm FF}$$.
+Your body is in LTE because of the fast, ultimately electromagnetic,
+interactions between molecules.  Your body is not in nuclear
+statistical equilibrium because strong nuclear reactions don’t happen
+at your density and temperature, so your atoms are able to avoid
+coming to the lowest energy nuclear state (iron).  Equilibrium can be
+a relative thing.  Let’s say we’ve checked, and nuclear reactions can
+be ignored.
+
+The ideal gas law assumes Newtonian physics.  Do I have to worry about
+special relativity?  We’d better check to see if our particles are
+moving close to the speed of light.  (Note that I'm talking about the
+random motion of individual particles relative to the average velocity
+of the fluid element they are part of.  These individual, "peculiar"
+speeds can be small even if the fluid elements themselves are falling
+into the black hole at relativistic speeds.)  The easiest way to do this is to
+compare energies.  The average kinetic energy of a gas particle is $$k_BT$$.
+The particle is relativistic if that is comparable to the rest
+energy $$m c^2$$.  Thus, electrons become relativistic when temperatures
+get into the MeV range.  When particles are very relativistic
+($$k_BT/mc^2 \gg 1$$), you can ignore their rest mass.  The gas is similar
+to a gas of photons, with pressure $$\sim T^4$$.  Lets say we find our gas to
+be nonrelativistic.
+
+What about quantum mechanics?  Must we use Fermi-Dirac distributions
+for the electron and proton gases?  A sloppy way to check whether we
+must worry about quantum physics is to compare the mean spacing
+between particles $$\sim n^{-1/3}$$ to the de Broglie wavelength of a
+particle
+
+$$\lambda \sim \frac{h}{p} \sim \frac{h}{\sqrt{2m k_B T}}$$
+
+If the wavelength is
+smaller than the inter-particle spacing, quantum effects are probably
+unimportant, and you can see that this happens for low $$n$$ or large
+$$T$$.  Gases become quantum, then, at high densities (e.g. white
+dwarfs and neutron stars) or low temperatures (laboratory BEC).  Let’s
+say we’ve checked, and our gas is classical.  (Of course, quantum
+mechanics may still be important when particles are close and
+scattering/absorbing/emitting.  The cross sections we use, for
+example, may have to come from a quantum calculation.)
+
+Say we’ve also checked that the electrostatic and nuclear interactions
+are short range compared to the interparticle spacing, so that the gas
+is ideal.  (Such is the delicate combination needed to make an ideal
+gas.  Interactions must act on a short enough timescale to maintain
+the gas in equilibrium.  On the other hand, the particles must not
+feel them most of the time, so that the energy in the equilibrium
+distribution function is almost exactly just the kinetic energy.)
+
+Very well, can we now use $$P = n k_B T$$ with a good conscience?
+Well, there will certainly then be ideal gas contributions to the
+pressure from the electrons and the protons.  However, we still must
+consider the photons.  Who said anything about photons?   Well, they
+will always be produced (say, by bremsstrahlung radiation), so we must
+consider them.  If the photons can travel through the gas and escape,
+they will be a cooling agent but will not affect the pressure.  If the
+gas is opaque, then the photons are trapped, and they rattle around
+bouncing off of (mostly) electrons, acting like a gas themselves (a
+gas of photons) with their own pressure.  Their distribution will come
+to the equilibrium (Planck) distribution, and the photons that bleed
+off the edge of the gas will be blackbody radiation.  The radiation
+pressure from trapped photons, which goes like $$T^4$$, is a
+major—sometimes dominant—contribution to the pressure in many
+astrophysical systems.
+
+So how do we know if the gas is opaque?  Can we see through it?
+Luckily, we’ve just been talking about mean free paths, so you know
+how to do this problem.  We just need to compare $$\ell$$, the mean
+free path of a photon, to $$L$$.  We want the ratio $$\tau \sim
+L/\ell$$, which is close to what is usually called the “optical depth”
+of the gas.  A $$\tau\ll 1$$ is “optically thin” (transparent); a
+$$\tau\gg 1$$ gas is optically thick (opaque).  For very hot ionized
+gases, the opacity is dominated by electron scattering, so $$n = n_e$$
+and $$\sigma = \sigma_T$$.
+
+That may seem a lot of work, but in fact it should give you some
+confidence.  It’s usually not too hard to check if an effect is
+important using easy order-of-magnitude estimates.  If you’ve settled
+on using the ideal gas law for the pressure, it’s because you’ve shown
+that in the regime you’re looking at, other stuff can be ignored.
+You’re not just doing it because it’s a homework problem, and you’re
+in a chapter talking about ideal gases.  Of course, there’s no recipe
+to make sure that there’s no relevant effect you forgot to think
+about.  Indeed, competent physicists do sometimes leave things out
+that turn out to be important.  However, imperfect first stabs at
+modeling a system are often still valuable and can be corrected in
+subsequent studies.
+
 
 ## The idea of a connection
 
