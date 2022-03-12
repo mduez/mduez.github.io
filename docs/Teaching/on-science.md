@@ -111,14 +111,23 @@ choosing.
 
 Having said all of this, I realize that the free time and expertise of
 each of us are limited, and practical considerations often force us to
-simply take the word of what we take to be relevant experts.  This is
+simply take the word of what we take to be relevant experts.  This can be
 perfectly rational.  However, remember that your access to these
 experts is often mediated.  Journalists are given to misunderstanding
-and sensationalism, so exercise due care.  Also, remember that
-agnosticism, a simple decision that one does not know whether or not
-to believe, is often also rational.  Finally, be aware that when a
-scientist gives an opinion outside his or her field of expertise, this
-opinion should be weighted no more heavily than that of anyone else.
+and sensationalism, so exercise due care.  Agnosticism, a simple
+decision that one does not know whether or not to believe, is often
+also rational.  Finally, any trust in scientists should be contingent
+on their adhering to the scientific method; if on any subject dissent
+from a party line subjects one to funding or career censure, or if
+potential hires are required to take ideological loyalty oaths
+(e.g. "diversity statements"), one can be sure that the scientific
+method is not operative on matters related to this subject, and the
+statements on it of compromised scientists and organizations should be
+evaluated as one would any other admitted partisan.  Naturally, it is
+also true that when a scientist gives an opinion outside his or her
+field of expertise, this opinion should be weighted no more heavily
+than that of anyone else.  This of course applies to the essay you are
+reading.
 
 ## Science and other disciplines in the cultivation of the intellect
 

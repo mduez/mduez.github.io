@@ -297,7 +297,194 @@ subsequent studies.
 
 ## The idea of a connection
 
-in progress
+Physics is built on geometry.  For thousands of years, Euclidean
+geometry was the only known, and thought to be the only conceivable,
+geometry.  Its assumptions go deep in our consciousness.  Consider
+these two line segments A and B:
+
+{% include image.html url="/assets/Images/line-segments.jpg" width="width:50%" description="two line segments" %}
+
+Are they parallel?  “Of course, at least very nearly so” you may
+think.  How do you know?  “Just look!”  If you wanted to be more
+careful, you might try drawing a line, as straight as you can make it,
+that intersects both A and B and using a protractor to measure the
+resulting angles.  I will grant your ability to measure these angles,
+which are local measurements, but how do you know the line you drew is
+straight?
+
+The problem of saying whether two line segments are parallel is
+equivalent to the problem of comparing two vectors (the tangent
+vectors to the line segments, in this case) at different points.  The
+set of tangent vectors at one point is a vector space; the set of
+tangent vectors at another point is another vector space.  These two
+vector spaces are like worlds unto themselves.  How do we compare a
+vector in one space to a vector in another?
+
+What you’re used to doing is looking at the vector’s components.  Thus
+at point A, I can introduce two basis vectors, $$\vec{e}_1$$ and
+$$\vec{e}_2$$.  (You may be used to seeing $$\vec{e}_x$$ and
+$$\vec{e}_y$$, or $$\hat{x}$$ and $$\hat{y}$$, or $$\hat{i}$$ and
+$$\hat{j}$$.)  Then vector $$\vec{v}$$ at A can be decomposed as
+$$\vec{v} = v^1 \vec{e}_1 + v^2\vec{e}_2$$, where $$v^1$$ and $$v^2$$
+are two numbers.  Similarly vector $$\vec{u}$$ at B can be decomposed
+as $$\vec{u} = u^1\vec{e}_1 + u^2\vec{e}_2$$.  Can I just compare the
+components ($$v^1$$,$$v^2$$) and ($$u^1$$,$$u^2$$)?  Alas, no. If we
+try, we’re immediately faced with the same problem.  How do we know
+that $$\vec{e}_1$$ at A is the same as $$\vec{e}_1$$ at B?  This is no
+idle worry.  Even in flat space, radial and angular polar coordinate
+basis vectors point in different directions at different points.
+
+If only we could pick up a vector at A and move it to B without
+changing the vector in transit, then we could do the comparison
+locally at B.  One can imagine physically picking up an arrow and
+trying to move it without rotating it.  How can I be sure it has
+experienced no torque?  And isn’t it odd that a physics question just
+popped up in what should be something purely mathematical?
+
+By the way, the “draw a straight line and use a protractor” strategy
+runs into the same problem.  A “straight line” just means a line whose
+tangent vector doesn’t change as one moves along it.  So to identify a
+line straight, we must be able to compare vectors at different
+locations.
+
+What is needed is a *connection*—a rule for translating vectors.
+Let’s show this with a simple illustration.  Say we stick with 2D and
+only interest ourselves in the direction of vectors.  A fanciful but
+perfectly adequate way of quantifying direction would be to lay down a
+small analog clock at each point in space.  The hour number the vector
+points at is its direction.  It plays exactly the role of basis
+vectors.  Then we might want to compare the direction of vectors at
+two points by comparing the numbers they point at, and from comparing
+vectors at nearby points, we could define a derivative of the vector.
+The worry is, what if the clock numbers are rotated with respect to
+each other?  Then this comparison will be wrong:
+
+{% include image.html url="/assets/Images/clocks.jpg" width="width:60%" description="A vector field (vertical arrows) living on a 2D space.  A, B, C, and D are points in this space, and each point has a clock that can be used to quantify the directions of vectors at that point." %}
+
+Now, my connection is a rule that tells me how much I must rotate
+clock numbers to compare vectors at two points.  E.g. to compare {\vec v} at
+A and at B, “move v at A to B” by taking the value at A and then
+rotating its value back by two hours to "translate" it to B.  Now that the
+"translated" vector is at B, one can compare it to the vector already at B
+by subtracting the numbers they point to on the clock.  Now we see that they
+point to the same number, so they are the same vector.
+
+{% include image.html url="/assets/Images/clock-connection.jpg" width="width:60%" description="A representation of the connection.  Arrows show how many hours to rotate the clock hand value when moving a vector along that path." %}
+
+It is clear that the connection depends greatly on my choice of basis
+vectors, of how I orient those clocks.  Is that all there is to it?  A
+necessary (and, it turns out, sufficient) condition is that what $$\vec{v}$$
+is when moved from A to B should not depend on the path I take when
+moving $$\vec{v}$$.  If it does depend on the path, then the idea of a unique
+value of $$\vec{v}$$ from A at B loses its meaning.
+
+The connection I drew at the four segments above had this property,
+that A$$\rightarrow$$C$$\rightarrow$$B gives the same result as
+A$$\rightarrow$$D$$\rightarrow$$B.  That’s because I derived that
+connection explicitly from clock rotations.  However, let us now
+change our perspective.  Let us think of the connection as an object
+in its own right.  (No longer imagine that there are clocks embedded
+in flat space, where you could see by eye whether they were rotated
+with respect to each other.)  Call the connection $$\tilde{A}$$.  At
+each point, it tells you how rapidly the 12 o'clock direction rotates
+as one moves in any direction.  Say these numbers can be anything.
+Then the reqirement of path-independence is a very strict condition.
+Most values of $$\tilde{A}$$ on those segments will not give this
+property.  For example:
+
+{% include image.html url="/assets/Images/connection-with-curvature.jpg" width="width:60%" description="A connection with curvature.  The curvature F is quantified by seeing how much rotation a vector picks up if transported clockwise along the closed path." %}
+
+Note that if I start at A and move my vector on a closed circuit
+A$$\rightarrow$$C$$\rightarrow$$B$$\rightarrow$$D$$\rightarrow$$A, my
+vector is different when it returns to its starting point!  This is
+the signature of curvature in my space.
+
+What should my connection be?  What should the corresponding curvature
+be?  Pure logic, pure mathematics will not tell you; anything is
+logically, mathematically possible.  This means it is an empirical
+question.  We must do an experiment to find the curvature.  And the
+curvature presumably came to have the value it does because it is a
+physical field with its own dynamics which we physicists can hope to
+discover.
+
+In general relativity, what we call gravity is actually the
+manifestation of spacetime curvature.  Whereas in Newtonian theory, we
+say that planets orbit the sun rather than traveling on straight lines
+because of a force of gravity, in relativity we say that there is no
+force acting on the planets, and they are traveling on straight lines,
+but they’re traveling on straight lines in a spacetime slightly curved
+by the influence of the sun.
+
+You might balk at the idea that a “slight” curvature can do this.
+Surely an ellipse is more than slightly different from a straight
+line?  Here it is important to remember that it is not space that is
+curved but spacetime.  It is the worldline of a planet as it moves
+through 4D spacetime, moving “up” in time while spiraling in space,
+that is only slightly curved.  Here’s the picture:
+
+{% include image.html url="/assets/Images/earth-worldline.jpg" width="width:60%" description="The worldline of the Earth--the path it makes in spacetime.  In the chosen frame, the sun is stationary, so its worldline is a vertical line." %}
+
+So, what we call free-fall is actually (if GR is right) inertial
+motion; its how a body with zero acceleration moves.  A surprising
+consequence of this is that a person standing still on the surface of
+the Earth has nonzero acceleration because that person is not in free
+fall!  In Newtonian physics, we would say that the acceleration is
+zero because two forces (normal force and gravity) cancel each other;
+in relativity, we say that the acceleration is nonzero because of the
+one and only acting force (the normal force from the ground).
+
+That’s general relativity, but in modern physics all fundamental
+forces appear as curvatures associated with connections.  For example,
+suppose I have two real scalar fields living in my spacetime,
+$$\phi_1$$ and $$\phi_2$$, which are non-interacting and identical in
+every way.  There is clearly a symmetry in this problem.  Suppose at
+one moment in time, $$\phi_1$$ is a gaussian centered on point A while
+$$\phi_2$$ is a gaussian centered on point B.  Now, I tell you to
+close your eyes, and while you’re not looking, I instantaneously swap
+the two fields, so now $$\phi_1$$ is centered at B and $$\phi_2$$ is
+centered at A.  When you open your eyes, you will not know that
+anything has changed.  Because the fields are identical, no experiment
+could show a difference.  This is an indication that, really, nothing
+has changed—I just relabeled the fields.
+
+It is, in fact, more convenient to group my two real fields together
+into a single complex scalar field $$\phi = \phi_1 + i \phi_2 =
+\left|\phi\right| e^{i\psi}$$.  Then my relabeling amounts to a global
+change of phase $$\psi$$.  Wave phases in themselves are physically
+meaningless—only phase differences are meaningful and show up as
+interference effects.
+
+As was the case with basis vectors,  there’s no reason my phase
+convention can’t vary from point to point.  It just means that when
+taking spatial derivatives of my field to solve the wave equation, I
+must use a covariant derivative, one that uses a connection to take
+into account how the meaning of $$\phi_1$$ and $$\phi_2$$ (or,
+equivalently, of $$\psi$$) changes from point to point.
+
+The situation is, in fact, exactly that illustrated above with the
+different clocks at each point.  Once we have defined our connection,
+we needn’t force it to have zero curvature.  We can give the
+connection its own dynamics, subject to the spacetime and phase
+symmetries of the problem.  In its most natural dynamics, the
+connection $$\tilde{A}$$ can be identified as the electromagnetic
+vector potential, its curvature $$F$$ as the field strength tensor
+(i.e. the electric and magnetic fields), and its evolution equations
+correspond to Maxwell’s equations.  The effect of local phase
+redefinitions (“rotating the clocks with respect to each other”) on
+the connection is what we recognize as a gauge transformation of the
+vector potential.  What we initially thought of as two real scalar
+fields turns out to be a single charged scalar field.
+
+In undergraduate physics, one starts from the electric and magnetic
+fields.  Then one introduces the vector potential as a mathematical
+trick for calculating these fields.  Finally, one notices that a whole
+equivalence class of $$\tilde{A}$$ fields give the same $$\vec{E}$$
+and $$\vec{B}$$ fields, i.e. that there is a gauge freedom.  Since
+$$\tilde{A}$$ is considered just a tool, all these $$\tilde{A}$$s are
+considered to be physically equivalent.
+
+In graduate physics, the line of thinking is exactly reversed.  One starts with a local symmetry.  The one we considered was the simplest:  $$\phi_1$$ and $$\phi_2$$ can be rotated into each other in any way that preserves $$\phi_1^2 + \phi_2^2$$.  One can imagine more complicated possibilities.  If there were 3 fields and the symmetry is that one can rotate them into each other in any way that preserves $$\phi_1^2+\phi_2^2+\phi_3^2$$, there would be three independent ways of rotating into each other (for example, mixing $$\phi_1$$ and $$\phi_2$$, or mixing $$\phi_2$$ and $$\phi_3$$, or mixing $$\phi_1$$ and $$\phi_3$$).  Each would have its own connection.  So, one starts with the set (actually, the group, in the precise mathematical term) of symmetry transformations.  These dictate the connection’s gauge transformation.  Finally, one computes the curvature corresponding to this connection(s), which is the equivalent of the $$\vec{E}$$ and $$\vec{B}$$ fields.
+
 
 ## What to expect when beginning research
 
