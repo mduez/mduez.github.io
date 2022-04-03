@@ -13,6 +13,8 @@ students on the purpose of graduate education.
 
 Classes I have taught:
 
+WSU
+
 - Astronomy 135:  Introductory Astronomy  
     Syllabus
 
@@ -34,4 +36,7 @@ Classes I have taught:
 - Physics 581:  General Relativity  
     [Syllabus]({% link /assets/Syllabi/GR.pdf %})
 
+Other
 
+- 6th-grade religious education at Sacred Heart Catholic Church
+     [Letter to parents]({% link Teaching/for-parents.md %})
