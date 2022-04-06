@@ -420,7 +420,8 @@ Surely an ellipse is more than slightly different from a straight
 line?  Here it is important to remember that it is not space that is
 curved but spacetime.  It is the worldline of a planet as it moves
 through 4D spacetime, moving “up” in time while spiraling in space,
-that is only slightly curved.  Here’s the picture:
+that is only slightly different from what we would consider a straight
+line in flat (Minkowski) spacetime.  Here’s the picture:
 
 {% include image.html url="/assets/Images/earth-worldline.jpg" width="width:60%" description="The worldline of the Earth--the path it makes in spacetime.  In the chosen frame, the sun is stationary, so its worldline is a vertical line." %}
 
