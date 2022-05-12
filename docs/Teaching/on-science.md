@@ -184,16 +184,21 @@ science.  Philosophy is the subject charged with understanding the
 relationship between disciplines.  Because of this unique role,
 philosophy is privileged or cursed never to be able to become a
 settled discipline with fixed methodology like others, despite the
-efforts of Descartes, Kant, Husserl, and lesser minds to find a way
-to make it such.  While there are professional scientists, professional
-philosophers, professional historians, and professional literary
-critics, we are all amateur scientists when we notice and investigate
-contingent patterns in the world, amateur philosophers when we
-consider how our discipline relates to the larger truth, amateur
-historians when we relate the present to the past, and amateur critics
-when we reflect on the stories we imbibe.  We benefit from the
-professionals but also actively participate in our own amateurish
-ways.
+efforts of Descartes, Kant, Husserl, and others who lacked their
+genuis to find a way to make it such.  (One might ask, doesn't
+philosophy have its own distinct fields of inquiry, such as
+metaphysics, ethics, etc?  Yes, but they all have the quality that no
+methodology can be agreed upon ahead of time--especially any which
+dictates what counts as relevant facts--without in some sense begging
+the questions these fields are meant to answer.)  While there are
+professional scientists, professional philosophers, professional
+historians, and professional literary critics, we are all amateur
+scientists when we notice and investigate contingent patterns in the
+world, amateur philosophers when we consider how our discipline
+relates to the larger truth, amateur historians when we relate the
+present to the past, and amateur critics when we reflect on the
+stories we imbibe.  We benefit from the professionals but also
+actively participate in our own amateurish ways.
 
 The spirit of intellectual investigation differs profoundly from
 another spirit now widely promoted on campuses—the spirit of activism,
