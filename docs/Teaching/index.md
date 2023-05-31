@@ -16,7 +16,7 @@ Classes I have taught:
 WSU
 
 - Astronomy 135:  Introductory Astronomy  
-    Syllabus
+    [Syllabus] ({% link /assets/Syllabi/Astro135.pdf %})
 
 - Astronomy 345:  High-Energy Astrophysics  
     [Syllabus]({% link /assets/Syllabi/Astro345.pdf %})
