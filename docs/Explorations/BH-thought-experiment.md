@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Thought experiment:  If my hand is inside an event horizon, and my head is outside, can I see or feel my hand?
+title:  If my hand is inside an event horizon, and my head is outside, can I see or feel my hand?
 exclude: true
 permalink: /BHThoughtExperiment/
 usemathjax: true
@@ -45,7 +45,7 @@ requires that my hand at t=0 can't influence my brain at t=0, but
 we knew that anyway, because those events are spacelike separated.  My
 hand at t=0 (event Q) sends a signal to my brain, and by the time it reaches
 my head (at t=D), my head is inside the light cone.  At
-t=0, my brain is receiving a signal from my hand at $$t=-D$$;
+t=0, my brain is receiving a signal from my hand at t=-D;
 here both the hand-sending event and the brain-recieving event are
 outside the light cone, so again, no problem.  At no point does my
 hand go numb (or invisible).
