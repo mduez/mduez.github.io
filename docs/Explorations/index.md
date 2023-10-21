@@ -12,4 +12,4 @@ Here I gather essays and thought experiments.
 
 [Overview of my research field]({% link Research/for-interested-students.md %})  (Intended audience:  undergraduate)
 
-[Thought experiment:  If my hand is inside an event horizon, and my head is outside, can I see or feel my hand?]  (Intended audience:  upper undergraduate)
+[Thought experiment:  If my hand is inside an event horizon, and my head is outside, can I see or feel my hand?]({% link Explorations/BH-thought-experiment.md %})  (Intended audience:  upper undergraduate)
