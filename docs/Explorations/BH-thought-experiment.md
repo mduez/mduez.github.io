@@ -29,7 +29,7 @@ First, let's solve an analogous problem in flat spacetime.  A future
 light cone is also
 a “surface of no escape”:  timelike worldlines can enter but not
 leave, and information cannot get out of it.  It is always the case
-that, at a given moment--call it $t=0$, my left hand is in the future
+that, at a given moment--call it $$t=0$$, my left hand is in the future
 light cone of
 some past event P while my head is outside.  Meanwhile, I can feel
 my hand because sensory nerve signals are constantly traveling at rather
@@ -41,11 +41,11 @@ frame.  Let's draw all this in a spacetime diagram:
 
 From the diagram, it is clear that there is no paradox.  Events inside
 the light cone cannot have information from events outside.  This
-requires that my hand at $t=0$ can't influence my brain at $t=0$, but
+requires that my hand at $$t=0$$ can't influence my brain at $$t=0$$, but
 we knew that anyway, because those events are spacelike separated.  My
-hand at $t=0$ (event Q) sends a signal to my brain, and by the time it reaches
-my head (at $t=t_1$), my head is inside the light cone.  At
-$t=0$, my brain is receiving a signal from my hand at $t=-\Delta t$;
+hand at $$t=0$$ (event Q) sends a signal to my brain, and by the time it reaches
+my head (at $$t=t_1$$), my head is inside the light cone.  At
+$$t=0$$, my brain is receiving a signal from my hand at $$t=-\Delta t$$;
 here both the hand-sending event and the brain-recieving event are
 outside the light cone, so again, no problem.  At no point does my
 hand go numb (or invisible).
@@ -62,7 +62,7 @@ singularities are apt to trick us about their locations--consider how, on a
 latitude-longitude map, the North and South poles look like lines rather than
 points.  (The polar coordinate system is singular there, and the proper
 distance along these "lines" is zero.)  Similarly, in this coordinate system,
-$r=r_s$ *looks* like a fixed location, and we are used to fixed spatial
+$$r=r_s$$ *looks* like a fixed location, and we are used to fixed spatial
 locations marking out timelike paths in spacetime (i.e. it's usually possible
 for there to be an observer sitting at a fixed location), but in this case,
 this appearance is deceiving.
@@ -70,7 +70,7 @@ this appearance is deceiving.
 In 1932, Georges (“father of the big bang”) Lemaitre produced a
 demonstration that the
 freezing-at-the-horizon effect is in fact just a coordinate artifact.
-He introduced new coordinates $T$ and $X$ in which the behavior at the
+He introduced new coordinates $$T$$ and $$X$$ in which the behavior at the
 horizon is regular.  Set 
 
 $$ dT = dt + \sqrt{\frac{r_s}{r}}\left(1 - \frac{r_s}{r}\right)^{-1}dr $$
@@ -86,14 +86,14 @@ $$ ds^2 = -dT^2 + \frac{r_s}{r} dX^2 + r^2 (d\theta^2 + \sin^2\theta d\phi^2) $$
 
 Note that, very near the horizon, the spacetime now looks nearly Minkowski.
 For the rest of this problem, let's zoom in on a region close to the horizon.
-We'll set $r_s/r\approx 1$ and consider only radial movements $d\theta=d\phi=0$.
+We'll set $$r_s/r\approx 1$$ and consider only radial movements $$d\theta=d\phi=0$$.
 
-Suppose all parts of my body are at rest in $X$, $T$ coordinates.
+Suppose all parts of my body are at rest in $$X$$, $$T$$ coordinates.
 Let's create a spacetime diagram like the one above to resolve the
-problem of whether I can feel my hand.  The diagram should have X and
-T axes.  First, we must  work out what the horizon looks like in these
-coordinates.  From the above, we find that $r=r_s$ where $(3/2)(X-T) =
-r_s$.  On the $X$-$T$ plot, this is a diagonal line, i.e. a path
+problem of whether I can feel my hand.  The diagram should have $$X$$ and
+$$T$$ axes.  First, we must  work out what the horizon looks like in these
+coordinates.  From the above, we find that $$r=r_s$$ where $$(3/2)(X-T) =
+r_s$$.  On the $$X$$-$$T$$ plot, this is a diagonal line, i.e. a path
 moving outward at the speed of light, i.e. a null path, i.e. an outgoing light cone:
 
 {% include image.html url="/assets/Images/into-bh1.jpg" width="width:60%" description="How the event horizon looks in any local Lorentz frame" %}
@@ -108,9 +108,9 @@ point did information travel from the inside of the black hole to the
 outside!
 
 Now suppose all parts of my body are moving at the same speed, but one
-different from the frame corresponding to the $X$, $T$ coordinates.
+different from the frame corresponding to the $$X$$, $$T$$ coordinates.
 Say instead that my body parts are at rest in a frame with coordinates
-$X’$ and $T’$.  Let's plot what happens in these coordinates.
+$$X’$$ and $$T’$$.  Let's plot what happens in these coordinates.
 Naturally, since it's my rest frame, my body parts will be vertical
 lines.  How about the event horizon?  Luckily, since spacetime looks
 flat/Minkowski in this local region we've zoomed into, this is just a
