@@ -1,6 +1,6 @@
 ---
 layout: page
-title:  If my hand is inside an event horizon, and my head is outside, can I see or feel my hand?
+title:  A Thought Experiment on Black Holes
 exclude: true
 permalink: /BHThoughtExperiment/
 usemathjax: true
