@@ -96,7 +96,7 @@ coordinates.  From the above, we find that $$r=r_s$$ where $$(3/2)(X-T) =
 r_s$$.  On the $$X$$-$$T$$ plot, this is a diagonal line, i.e. a path
 moving outward at the speed of light, i.e. a null path, i.e. an outgoing light cone:
 
-{% include image.html url="/assets/Images/into-bh1.jpg" width="width:60%" description="How the event horizon looks in any local Lorentz frame" %}
+{% include image.html url="/assets/Images/into-bh2.jpg" width="width:60%" description="How the event horizon looks in any local Lorentz frame" %}
 
 We see that it's the exact same thing as the light cone case.
 Assuming my body parts aren't moving relativistically with respect to
