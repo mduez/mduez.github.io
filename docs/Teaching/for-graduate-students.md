@@ -115,8 +115,8 @@ its angular momentum, usually a much longer timescale.)
 
 Let us suppose that you know the mass density of the gas near the
 black hole and its temperature.  You may assume the temperature is
-between $$10^6$$ and $$10^11$$ K, but the density could be anything from
-$$10^{-20}$$ g cm$${}^{-3}$$ to $$10^14$$ g cm$${}^{-3}$$ (nuclear density).
+between $$10^6$$ and $$10^{11}$$ K, but the density could be anything from
+$$10^{-20}$$ g cm$${}^{-3}$$ to $$10^{14}$$ g cm$${}^{-3}$$ (nuclear density).
 Let’s say the gas
 is hydrogen, or it was when it was far away and cool.  You’ll notice
 that even the lowest allowed temperature is much higher than the
