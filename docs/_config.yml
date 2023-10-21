@@ -37,6 +37,7 @@ plugins:
 header_pages:
   - Research/index.md
   - Teaching/index.md
+  - Explorations/index.md
   - Publications.md
   - Support.md
 
