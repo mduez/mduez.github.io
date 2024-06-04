@@ -71,7 +71,7 @@ energy.  Let's assume the sun is made entirely of ionized hydrogen, so almost
 all of the mass is in protons.  To get the number of protons, take the mass of
 the sun and divide by the mass of a proton:
 
-$$N=M_{\odot}/m_p = 2\times 10^{30}\)kg/\(1.7\times 10^{-27}\)kg
+$$N=M_{\odot}/m_p = 2\times 10^{30}{\rm kg} / 1.7\times 10^{-27}{\rm kg}
 = 1.2\times 10^{57}$$
 
 That's a big number, but in astronomy we're not afraid
@@ -85,7 +85,8 @@ Dividing, I get the time to radiate a significant portion of the thermal
 energy, the *Kelvin-Helmholtz timescale*,
 
 $$ t_{\rm KH}=Nk_BT/L_{\odot}\approx 10^14 {\rm sec} \sim 10^7 {\rm years}$$
-(tens of millions of years).
+
+(tens of millions of years)
 
 So the star will slowly change over the course of millions of years.  It
 will indeed shrink, but rather than cooling down, it will actually get
@@ -141,11 +142,11 @@ $$\ell = (n\sigma_T)^{-1}$$
 where *n* is the number of density, i.e. electrons per volume.  Using the fact
 that there is one electron per proton, we can estimate
 
-$$n\sim N/V\sim M/(m_pR^3)$$.
+$$n\sim N/V\sim M/(m_pR^3)$$
 
 I've taken the volume of the star to be
 
-$$V\approx R^3$$.
+$$V\approx R^3$$
 
 Given all the approximations we'll be making, it wouldn't
 make sense to keep track of factors of pi and whatnot.
