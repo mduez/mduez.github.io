@@ -11,26 +11,26 @@ permalink: /GroupMembers/
     Principle Investigator    
 
 - **Nishad Muhammed**
-    PhD student
+    PhD student  
     Research: Nishad invstigated the stability properties of hypermassive neutron stars of the sort
     formed by binary neutron star mergers.  He first created equilibrium configurations, slightly
     perturbed them, and then evolved them using short 2D SpEC simulations to see if they oscillate
     or collapse.  His latest project is to study energy release from the annihilation of neutrinos
     and antineutrinos emitted by the accretion disks around black holes formed by compact binary
-    mergers and failed supernovea.
-    Papers:
+    mergers and failed supernovea.  
+    Papers:  
      - *Stability of hypermassive neutron stars with realistic rotation and entropy profiles* by Muhammed *et al*,
      submitted to Physical Review D, [arXiv:2403.05642](https://arxiv.org/abs/2403.05642)
      - *High angular momentum hot differentially rotating equilibrium star evolutions in conformally flat spacetime* by Cheong *et al*, submitted to Physical Review D, [arXiv:2402.18529](https://arxiv.org/abs/2402.18529)
 
 - **Pavan Chawhan**
-    PhD student
+    PhD student  
     Research:  Pavan is working to extend binary neutron star simulations using 2D SpEC to study
     post-merger evolution, similarly to how Milad did for a black hole-neutron star post-merger
     (see below), but now with the added complication of evolving the spacetime metric.  Part of this
     project is to consider different models of angular momentum transport inside the central remnant,
-    which attempt to capture the effects of various MHD instabilities.
-    Papers:
+    which attempt to capture the effects of various MHD instabilities.  
+    Papers:  
      - *Stability of hypermassive neutron stars with realistic rotation and entropy profiles* by Muhammed *et al*,
      submitted to Physical Review D, [arXiv:2403.05642](https://arxiv.org/abs/2403.05642)
      - *High angular momentum hot differentially rotating equilibrium star evolutions in conformally flat spacetime* by Cheong *et al*, submitted to Physical Review D, [arXiv:2402.18529](https://arxiv.org/abs/2402.18529)
