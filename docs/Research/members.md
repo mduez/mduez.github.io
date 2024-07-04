@@ -37,7 +37,7 @@ permalink: /GroupMembers/
 
 
 - **Amlan Nanda**
-    PhD student
+    PhD student  
     Research:  Amlan is going to use SpEC to study compact binaries which include boson stars.  Right now,
     we are creating initial data.  He will also be working with Sukanta Bose on a project studying the
     effects of dynamical tides in binary neutron star gravitational waveforms.
@@ -45,15 +45,15 @@ permalink: /GroupMembers/
 ## Past Members
 
 - **Marlo Morales**
-  Degree:  Masters 2024
+  Degree:  Masters 2024  
   Research:  Marlo investigated outer boundary conditions to the Einstein field equations, in particular
   working on implementations of a high-order boundary condition that removes reflections of gravitational
-  waves.
-  Papers:
+  waves.  
+  Papers:  
      - *Numerical Relativity Multimodal Waveforms using Absorbing Boundary Conditions* by Buchman *et al*, submitted to Classical and Quantum Gravity, [arXiv:2402.12544](https://arxiv.org/abs/2402.12544)
 
 - **Courtney Cadenhead**  
-  Degreee: Masters 2022
+  Degreee: Masters 2022  
   Research:  As an undergraduate, Courtney studied electromagnetic energy fluxes in SpEC simulations. 
   As a masters degree student, she investigated dynamo action in the black hole accretion disks
   we simulate, in particular the question of how to model 3D magnetorotational turbulence in
