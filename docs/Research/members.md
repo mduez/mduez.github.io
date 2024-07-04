@@ -10,20 +10,59 @@ permalink: /GroupMembers/
 - **Matthew Duez**  
     Principle Investigator    
 
+- **Nishad Muhammed**
+    PhD student
+    Research: Nishad invstigated the stability properties of hypermassive neutron stars of the sort
+    formed by binary neutron star mergers.  He first created equilibrium configurations, slightly
+    perturbed them, and then evolved them using short 2D SpEC simulations to see if they oscillate
+    or collapse.  His latest project is to study energy release from the annihilation of neutrinos
+    and antineutrinos emitted by the accretion disks around black holes formed by compact binary
+    mergers and failed supernovea.
+    Papers:
+     - *Stability of hypermassive neutron stars with realistic rotation and entropy profiles* by Muhammed *et al*,
+     submitted to Physical Review D, [arXiv:2403.05642](https://arxiv.org/abs/2403.05642)
+     - *High angular momentum hot differentially rotating equilibrium star evolutions in conformally flat spacetime* by Cheong *et al*, submitted to Physical Review D, [arXiv:2402.18529](https://arxiv.org/abs/2402.18529)
+
+- **Pavan Chawhan**
+    PhD student
+    Research:  Pavan is working to extend binary neutron star simulations using 2D SpEC to study
+    post-merger evolution, similarly to how Milad did for a black hole-neutron star post-merger
+    (see below), but now with the added complication of evolving the spacetime metric.  Part of this
+    project is to consider different models of angular momentum transport inside the central remnant,
+    which attempt to capture the effects of various MHD instabilities.
+    Papers:
+     - *Stability of hypermassive neutron stars with realistic rotation and entropy profiles* by Muhammed *et al*,
+     submitted to Physical Review D, [arXiv:2403.05642](https://arxiv.org/abs/2403.05642)
+     - *High angular momentum hot differentially rotating equilibrium star evolutions in conformally flat spacetime* by Cheong *et al*, submitted to Physical Review D, [arXiv:2402.18529](https://arxiv.org/abs/2402.18529)
+
+
+- **Amlan Nanda**
+    PhD student
+    Research:  Amlan is going to use SpEC to study compact binaries which include boson stars.  Right now,
+    we are creating initial data.  He will also be working with Sukanta Bose on a project studying the
+    effects of dynamical tides in binary neutron star gravitational waveforms.
+
+## Past Members
+
+- **Marlo Morales**
+  Degree:  Masters 2024
+  Research:  Marlo investigated outer boundary conditions to the Einstein field equations, in particular
+  working on implementations of a high-order boundary condition that removes reflections of gravitational
+  waves.
+  Papers:
+     - *Numerical Relativity Multimodal Waveforms using Absorbing Boundary Conditions* by Buchman *et al*, submitted to Classical and Quantum Gravity, [arXiv:2402.12544](https://arxiv.org/abs/2402.12544)
+
 - **Courtney Cadenhead**  
+  Degreee: Masters 2022
   Research:  As an undergraduate, Courtney studied electromagnetic energy fluxes in SpEC simulations. 
-  As a masters degree student, she is investigating dynamo action in the black hole accretion disks
+  As a masters degree student, she investigated dynamo action in the black hole accretion disks
   we simulate, in particular the question of how to model 3D magnetorotational turbulence in
   axisymmetry in a covariant and well-motivated way.  
   Papers:  
     - *Axisymmetric Hydrodynamics in Numerical Relativity Using a Multipatch Method* by Jesse *et al*,
       Classical and Quantum Gravity 37 23501 (2020), [arXiv:2005.01848](https://arxiv.org/abs/2005.01848)
+    - *Analysis of Dynamo Effects in a Relativistic, Cartesian Global Accretion Disk Simulation:  Toward Global Models* by Duez *et al*, in prep.
 
-- **Nishad Muhammed**  
-    Research: Nishad is preparing to study the stability of certain types of hypermassive stars.  
-    Papers:  
-
-## Past Members
 
 - **Milad Haddadi**  
   Degree:  PhD 2020  
