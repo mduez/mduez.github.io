@@ -69,6 +69,7 @@ permalink: /GroupMembers/
   Research:  Milad used 2D simulations to continue SpEC simulations for the first time for multiple
   seconds after merger, long enough to study the late-time disk evolution and outflows.  
   Papers:  
+    - *Late-time post-merger modeling of a compact binary: effects of relativity, r-process heating, and treatment of transport effects* by Haddadi *et al*, Class. Quantum Grav. 40 085008 (2023) [arXiv:2208.02367](https://arxiv.org/abs/2208.02367)
     - *A comparison of momentum transport models for numerical relativity* by Duez *et al*,
       Phys. Rev. D 102, 104050 (2020), [arXiv:2008.05019](https://arxiv.org/abs/2008.05019)
     - *Axisymmetric Hydrodynamics in Numerical Relativity Using a Multipatch Method* by Jesse *et al*,
@@ -80,6 +81,7 @@ permalink: /GroupMembers/
   Research:  Jerred developed a way to implement axisymmetry in multipatch codes and studied
   hydrodynamics, magnetohydrodynamics, and neutrino radiation transport in 2D numerical relativity.  
   Papers:  
+      - *Late-time post-merger modeling of a compact binary: effects of relativity, r-process heating, and treatment of transport effects* by Haddadi *et al*, Class. Quantum Grav. 40 085008 (2023) [arXiv:2208.02367](https://arxiv.org/abs/2208.02367)
     - *A comparison of momentum transport models for numerical relativity* by Duez *et al*,
       Phys. Rev. D 102, 104050 (2020), [arXiv:2008.05019](https://arxiv.org/abs/2008.05019)
     - *Axisymmetric Hydrodynamics in Numerical Relativity Using a Multipatch Method* by Jesse *et al*,
@@ -106,7 +108,7 @@ permalink: /GroupMembers/
     - *Black hole-neutron star mergers using a survey of finite-temperature equations of state* by Brege *et al*, Phys. Rev. D 98, 063009 (2018), [arXiv:1804.09823](https://arxiv.org/abs/1804.09823)
     - *Dynamical ejecta from precessing neutron star-black hole mergers with a hot, nuclear-theory based equation of state* by Foucart *et al*, Classical and Quantum Gravity, 34, 4 (2017), [arXiv:1611.01159](https://arxiv.org/abs/1611.01159)
 
-- **Fatemeh Nouri**
+- **Fatemeh Nouri**  
   Degree:  PhD 2016  
   Research:  Fatemeh simulated the effect of magnetic fields on neutrino-cooled post-merger disks,
   developing an innovative study of the thermal evolution.  She has continued to work with the WSU
