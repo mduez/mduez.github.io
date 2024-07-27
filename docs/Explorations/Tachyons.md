@@ -16,7 +16,7 @@ Table of Contents
 
 ## Preliminaries on the Klein-Gordon equation
 
-Suppose there is a scalar field *w*(***x***) (where ***x*** is shorthand for the spacetime coordinates (*t,x,y,z*) with potential
+Suppose there is a scalar field *w*(***x***) (where ***x*** is shorthand for the spacetime coordinates *t,x,y,z*) with potential
 
 $$V(w) = \frac{1}{2} M w^2$$
 
@@ -149,7 +149,7 @@ Similarly, the characteristic field *v* flows to the left at the speed of light.
 
 To make this clearer, let's imagine using characteristics to solve the Klein-Gordon equation numerically.  Suppose we introduce a 1D grid with N points with constant spacing *dx* between points.  Computers don't have infinite memory, so we will only keep track of functions at the gridpoints.  Each gridpoint shall be labeled by an index *j* running from 1 to N.  Say at time *t=0*, we know *w*, *u*, and *v* at each grid point.  We will also discretize in time, i.e. calculating functions only at a finite sequence of moments, and we assign an index *n* to each moment, with *n=1* at *t=0*.  The time from one of these moment to the next is called the timestep *dt*, and I choose *dt=dx* so that characteristics connect grid points at on time to grid points at the next time.  The setup looks like this:
 
-{% include image.html url="/assets/Images/characteristic_evolution.jpg" width="width:30%" description="Integrating forward in time on a grid using characteristics" %}
+{% include image.html url="/assets/Images/characteristic_evolution.jpg" width="width:60%" description="Integrating forward in time on a grid using characteristics" %}
 
 Knowing everything at *n=1*, I want to calculate everything at *n=2*.  Here's a way I might do this.  Consider a point *j=i* somewhere in the middle of the grid.  First I will take into account the information flow.  *u* information flows rightward (on blue lines), so ignoring mass, we would have *u(j=i,n=2)=u(j=i-1,n=1)*.  We take mass into account by thinking of *u* as evolving according to an ODE along blue lines, and we'll approximate this ODE using a simple first-order, Eulerian finite differencing (I didn't say this is the best way to numerically integrate these equations), I would have instead
 
