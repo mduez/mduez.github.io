@@ -16,7 +16,7 @@ Table of Contents
 
 ## Preliminaries on the Klein-Gordon equation
 
-Suppose there is a scalar field *w(* ***x*** *)* (where ***x*** is shorthand for the spacetime coordinates *t,x,y,z*) with potential
+Suppose there is a scalar field *w*(***x***) (where ***x*** is shorthand for the spacetime coordinates (*t,x,y,z*) with potential
 
 $$V(w) = \frac{1}{2} M w^2$$
 
@@ -24,7 +24,7 @@ If *M* is positive, then the potential looks like this:
 
 {% include image.html url="/assets/Images/stable-potential.jpg" width="width:30%" description="Shape of potential for positive M" %}
 
-Clearly, this potential will tend to push the field toward a value of zero if it is not already zero.  The state *w(* ***x*** *)*=0 is called "the vacuum" because this
+Clearly, this potential will tend to push the field toward a value of zero if it is not already zero.  The state *w*(***x***)=0 is called "the vacuum" because this
 is the minimum of the potential.  Note that when physicists refer to "the vacuum", we don't mean "nothing".  The field is still there; it just has value zero.  If the potential were
 
 $$ V(w) = \frac{1}{2} M(w-1)^2$$
@@ -120,7 +120,7 @@ In fact, there are particular issues with using the group velocity for tachyonic
 
 Let us then look at where causal influence really comes into our theory, in the characteristic structure of the equation of motion.  Rather than review how this is done for a general PDE, let's start by factoring the Klein-Gordon equation
 
-$$ \left[\left( \frac{\partial}{\partial x} - frac{\partial}{\partial t} \right)\left( \frac{\partial}{\partial x} + frac{\partial}{\partial t} \right)   - M\right]w = 0$$
+$$ \left[\left( \frac{\partial}{\partial x} - \frac{\partial}{\partial t} \right)\left( \frac{\partial}{\partial x} + \frac{\partial}{\partial t} \right)   - M\right]w = 0$$
 
 Defining new variables
 
@@ -132,7 +132,7 @@ $$ \left( \frac{\partial}{\partial x} - \frac{\partial}{\partial t} \right) u = 
 
 $$ \left( \frac{\partial}{\partial x} + \frac{\partial}{\partial t} \right) v = M w $$
 
-$$ frac{\partial w}{\partial t} = \frac{1}{2}\left(u-v\right) $$
+$$ \frac{\partial w}{\partial t} = \frac{1}{2}\left(u-v\right) $$
 
 Now, the first order operator
 
@@ -169,7 +169,7 @@ To evolve endpoints, we must specify boundary conditions.  The characteristic fo
 
 ## Causality in quantum field theory
 
-In classical field theory, *w(x,t)* is a function.  It takes some numerical value at each *x* and *t*, and the values of these numbers tell us which of all possible worlds we are living in.  In quantum field theory, there is a field operator **w**(*x,t*) which obeys the Klein-Gordon equation but which plays a very different role than in the classical theory.  In particular **w** is the same no matter what the state of the world is.  The information about which of all possible worlds we are actually in is carried by the state, represented (for a pure state) by a vector in Hilbert space.  The operator **w** (*x,t*) acting on the state roughly has the effect of changing the state by adding a particle/field excitation at the event (*x,t*).  Compare this to the more familiar case of particles.  In Newtonian mechanics, the momentum *p* of the particle is a number.  The number will be different depending on how fast the particle is moving.  In quantum mechanics **p** is an operator, the same regardless of the particle's motion.  Information about the latter is contained in the state vector (the wavefunction, if you prefer).  If the state is an eigenvector of **p**, then the value of the particle's momentum (i.e. what it would certainly be found if measured) is the eigenvalue.  **p** in the Hamiltonian is responsible for altering the state so that packets of probability move in space.  The situation is analogous in field theory.
+In classical field theory, *w(x,t)* is a function.  It takes some numerical value at each *x* and *t*, and the values of these numbers tell us which of all possible worlds we are living in.  In quantum field theory, there is a field operator **w**(*x,t*) which obeys the Klein-Gordon equation but which plays a very different role than in the classical theory.  In particular **w** is the same no matter what the state of the world is.  The information about which of all possible worlds we are actually in is carried by the state, represented (for a pure state) by a vector in Hilbert space.  The operator **w**(*x,t*) acting on the state roughly has the effect of changing the state by adding a particle/field excitation at the event (*x,t*).  Compare this to the more familiar case of particles.  In Newtonian mechanics, the momentum *p* of the particle is a number.  The number will be different depending on how fast the particle is moving.  In quantum mechanics **p** is an operator, the same regardless of the particle's motion.  Information about the latter is contained in the state vector (the wavefunction, if you prefer).  If the state is an eigenvector of **p**, then the value of the particle's momentum (i.e. what it would certainly be found if measured) is the eigenvalue.  **p** in the Hamiltonian is responsible for altering the state so that packets of probability move in space.  The situation is analogous in field theory.
 
 Recall that if two operators do not commute, they are not simultaneously specifiable:  the state cannot have definite values of both, so you can't prepare a system in definite states of both, and you can't measure one without changing the state so it doesn't have a definite value of the other.  The two operators are in this sense not independent.
 
