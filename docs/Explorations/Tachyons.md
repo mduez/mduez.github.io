@@ -14,7 +14,7 @@ Table of Contents
 - [Further reading](#further-reading)
 
 
-## Preliminaries on the Klein-Gordon equation](#preliminaries-on-the-klein-gordon-equation
+## Preliminaries on the Klein-Gordon equation
 
 Suppose there is a scalar field *w(* ***x*** *)* (where ***x*** is shorthand for the spacetime coordinates *t,x,y,z*) with potential
 
@@ -24,8 +24,8 @@ If *M* is positive, then the potential looks like this:
 
 {% include image.html url="/assets/Images/stable-potential.jpg" width="width:30%" description="Shape of potential for positive M" %}
 
-Clearly, this potential will tend to push the field toward a value of zero if it is not already zero.  The state *w(* ***x*** *)*=0 is called ``the vacuum'' because this
-is the minimum of the potential.  Note that when physicists refer to ``the vacuum'', we don't mean ``nothing''.  The field is still there; it just has value zero.  If the potential were
+Clearly, this potential will tend to push the field toward a value of zero if it is not already zero.  The state *w(* ***x*** *)*=0 is called "the vacuum" because this
+is the minimum of the potential.  Note that when physicists refer to "the vacuum", we don't mean "nothing".  The field is still there; it just has value zero.  If the potential were
 
 $$ V(w) = \frac{1}{2} M(w-1)^2$$
 
@@ -47,7 +47,7 @@ You will sometimes encounter claims (not only in the popular press, but in publi
 
 Before really diving in, let's get the equation of motion for this field.  We shall work throughout in units for which the speed of light *c=1*.  We shall also assume a Minkowski metric, that is that we are working in flat spacetime in Cartesian coordinates.  The action is
 
-$$ S[s] = \int d^4x \left[-\frac{1}{2}\eta^{\mu\nu}\partial_{\mu}s\partial_{\nu}s - M s^2 $$
+$$ S[s] = \int d^4x \left[-\frac{1}{2}\eta^{\mu\nu}\partial_{\mu}s\partial_{\nu}s - M s^2\right] $$
 
 Recall *S* is a functional:  it takes a 4D function as input and spits out a number.  The classical equation of motion is a stationary point of the action.  That is, a classically allowed spacetime history *w(* ***x*** *)* is one with the property that if you slightly alter *s(* ***x*** *)* in any arbitrary way, the action will not change to linear order in the perturbation:
 
@@ -63,7 +63,7 @@ $$ \left[-\frac{\partial^2}{\partial t^2} + \frac{\partial^2}{\partial x^2} - M\
 
 By the way, let's now check our intuition about stability.  Consider the limit where *w* changes in time but does not vary in space.  (Think of *w(x)* as a horizontal line that can move up or down in time but stays horizontal.)  Then we would have the ODE
 
-** \frac{d^2 w}{dt^2} = -M w **
+$$ \frac{d^2 w}{dt^2} = -M w $$
 
 You will immediately recognize that if *M>0*, the solutions will be simple harmonic motion (sinusoidal)--what we expect for a perturbed stable equilibrium.  If *M<0*, the solutions are growing or decaying exponentials--what we expect for a perturbed unstable equilibrium.
 
@@ -85,7 +85,7 @@ $$ k^2 + M > 0 $$
 
 The *phase velocity* is
 
-$$ v_p \equiv \frac{\omega}{k} = \frac{\sqrt{k^2 + M}}{k}
+$$ v_p \equiv \frac{\omega}{k} = \frac{\sqrt{k^2 + M}}{k} $$
 
 This is greater than 1 for the real mass (positive *M*) case and less than 1 for the tachyonic (negative *M*) case.  Recall that *c=1* in our units.  Does this mean real mass spinless particles travel faster than light, while tachyons travel slower than light?  That's certainly not what we were expecting to find!  It's also not true.
 
@@ -124,19 +124,19 @@ $$ \left[\left( \frac{\partial}{\partial x} - frac{\partial}{\partial t} \right)
 
 Defining new variables
 
-$$ u \equiv \left( \frac{\partial}{\partial x} + frac{\partial}{\partial t} \right) w  \qquad v \equiv \left( \frac{\partial}{\partial x} - frac{\partial}{\partial t} \right) w $$
+$$ u \equiv \left( \frac{\partial}{\partial x} + \frac{\partial}{\partial t} \right) w  \qquad v \equiv \left( \frac{\partial}{\partial x} - \frac{\partial}{\partial t} \right) w $$
 
 The fields *w*, *u*, and *v* obey first-order PDEs
 
-$$ \left( \frac{\partial}{\partial x} - frac{\partial}{\partial t} \right) u = Mw $$
+$$ \left( \frac{\partial}{\partial x} - \frac{\partial}{\partial t} \right) u = Mw $$
 
-$$ \left( \frac{\partial}{\partial x} + frac{\partial}{\partial t} \right) v = M w $$
+$$ \left( \frac{\partial}{\partial x} + \frac{\partial}{\partial t} \right) v = M w $$
 
 $$ frac{\partial w}{\partial t} = \frac{1}{2}\left(u-v\right) $$
 
 Now, the first order operator
 
-$$ \frac{d}{dt} \equiv \left( \frac{\partial}{\partial x} - frac{\partial}{\partial t} \right) $$
+$$ \frac{d}{dt} \equiv \left( \frac{\partial}{\partial x} - \frac{\partial}{\partial t} \right) $$
 
 is just an advection operator.  If *M=0*, it would mean that *u* just shifts to the right with speed 1.  We can think of the characteristic field *u* as part of the information in the field that flows to the right at the speed of light.  The mass term *M w* doesn't have any derivatives and so doesn't connect neighboring points.  It doesn't affect the information flow.  One can, in fact, think of the above as an ODE rather than a PDE.
 
