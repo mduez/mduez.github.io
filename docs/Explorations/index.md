@@ -15,3 +15,5 @@ Here I gather essays and thought experiments.
 [Thought experiment:  If my hand is inside an event horizon, and my head is outside, can I see or feel my hand?]({% link Explorations/BH-thought-experiment.md %})  (Intended audience:  upper undergraduate)
 
 [Thought experiment:  What would happen if nuclear fusion in a star were to magically stop?]({% link Explorations/Star-thought-experiment.md %})  (Intended audience:  first half for everyone, second half for upper undergraduates)
+
+[Qustion:  Do tachyons really travel faster than light?]({% link Explorations/Tachyons.md %}) (Intended audience:  upper undergraduate / graduate)

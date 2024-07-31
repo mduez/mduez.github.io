@@ -124,23 +124,23 @@ $$ \left[\left( \frac{\partial}{\partial x} - \frac{\partial}{\partial t} \right
 
 Defining new variables
 
-$$ u \equiv \left( \frac{\partial}{\partial x} + \frac{\partial}{\partial t} \right) w  \qquad v \equiv \left( \frac{\partial}{\partial x} - \frac{\partial}{\partial t} \right) w $$
+$$ u \equiv \left( \frac{\partial}{\partial x} + \frac{\partial}{\partial t} \right) w  \qquad v \equiv \left( \frac{\partial}{\partial t} - \frac{\partial}{\partial x} \right) w $$
 
 The fields *w*, *u*, and *v* obey first-order PDEs
 
-$$ \left( \frac{\partial}{\partial x} - \frac{\partial}{\partial t} \right) u = Mw $$
+$$ \left( \frac{\partial}{\partial t} - \frac{\partial}{\partial x} \right) u = -Mw $$
 
-$$ \left( \frac{\partial}{\partial x} + \frac{\partial}{\partial t} \right) v = M w $$
+$$ \left( \frac{\partial}{\partial x} + \frac{\partial}{\partial t} \right) v = -M w $$
 
-$$ \frac{\partial w}{\partial t} = \frac{1}{2}\left(u-v\right) $$
+$$ \frac{\partial w}{\partial t} = \frac{1}{2}\left(u+v\right) $$
 
 Now, the first order operator
 
-$$ \frac{d}{dt} \equiv \left( \frac{\partial}{\partial x} - \frac{\partial}{\partial t} \right) $$
+$$ \frac{d}{dt} \equiv \left( \frac{\partial}{\partial t} - \frac{\partial}{\partial x} \right) $$
 
 is just an advection operator.  If *M=0*, it would mean that *u* just shifts to the right with speed 1.  We can think of the characteristic field *u* as part of the information in the field that flows to the right at the speed of light.  The mass term *M w* doesn't have any derivatives and so doesn't connect neighboring points.  It doesn't affect the information flow.  One can, in fact, think of the above as an ODE rather than a PDE.
 
-$$ \frac{du}{dt} = M w $$
+$$ \frac{du}{dt} = -M w $$
 
 Here *du/dt* means the rate of change of *u* with respect to *t* as one moves along a right-going null path.
 
@@ -153,17 +153,17 @@ To make this clearer, let's imagine using characteristics to solve the Klein-Gor
 
 Knowing everything at *n=1*, I want to calculate everything at *n=2*.  Here's a way I might do this.  Consider a point *j=i* somewhere in the middle of the grid.  First I will take into account the information flow.  *u* information flows rightward (on blue lines), so ignoring mass, we would have *u(j=i,n=2)=u(j=i-1,n=1)*.  We take mass into account by thinking of *u* as evolving according to an ODE along blue lines, and we'll approximate this ODE using a simple first-order, Eulerian finite differencing (I didn't say this is the best way to numerically integrate these equations), I would have instead
 
-$$ u(j=i,n=2)=u(j=i-1,n=1) + M w(j=i-1,n=1)dt $$
+$$ u(j=i,n=2)=u(j=i-1,n=1) - M w(j=i-1,n=1)dt $$
 
 Similarly, *v* information flows along left-going (red) null lines.
 
-$$ v(j=i,n=2)=v(j=i+1,n=1) + M w(j=i+1,n=1)dt $$
+$$ v(j=i,n=2)=v(j=i+1,n=1) - M w(j=i+1,n=1)dt $$
 
 Finally, red and blue information combine to give *w*
 
-$$ w(j=i,n=2) = \frac{1}{2}\left[u(j=i,n=1)-v(j=i,n=1)\right]dt $$
+$$ w(j=i,n=2) = \frac{1}{2}\left[u(j=i,n=1)+v(j=i,n=1)\right]dt $$
 
-$$ w(j=i,n=3) = \frac{1}{2}\left[u(j=i,n=2)-v(j=i,n=2)\right]dt $$
+$$ w(j=i,n=3) = \frac{1}{2}\left[u(j=i,n=2)+v(j=i,n=2)\right]dt $$
 
 To evolve endpoints, we must specify boundary conditions.  The characteristic formulation tells us exactly what information to provide at boundaries (and what not to provide) to have a well-posed problem.  This is why, even though real numerical integrations of PDEs don't usually use the above method, calculation of the characteristic fields and their speeds is at the heart of designing boundary conditions.  Clearly, from the picture, *u* information flows into the grid from the left, and *v* information flows in from the right.  Therefore, for all *n>1*, we must specify (somehow or other) *u* on *j=1* and specify *v* on *j=N*.  We should not provide anything else.
 
