@@ -124,13 +124,13 @@ $$ \left[\left( \frac{\partial}{\partial x} - \frac{\partial}{\partial t} \right
 
 Defining new variables
 
-$$ u \equiv \left( \frac{\partial}{\partial x} + \frac{\partial}{\partial t} \right) w  \qquad v \equiv \left( \frac{\partial}{\partial t} - \frac{\partial}{\partial x} \right) w $$
+$$ u \equiv \left( \frac{\partial}{\partial t} + \frac{\partial}{\partial x} \right) w  \qquad v \equiv \left( \frac{\partial}{\partial t} - \frac{\partial}{\partial x} \right) w $$
 
 The fields *w*, *u*, and *v* obey first-order PDEs
 
 $$ \left( \frac{\partial}{\partial t} - \frac{\partial}{\partial x} \right) u = -Mw $$
 
-$$ \left( \frac{\partial}{\partial x} + \frac{\partial}{\partial t} \right) v = -M w $$
+$$ \left( \frac{\partial}{\partial t} + \frac{\partial}{\partial x} \right) v = -M w $$
 
 $$ \frac{\partial w}{\partial t} = \frac{1}{2}\left(u+v\right) $$
 
