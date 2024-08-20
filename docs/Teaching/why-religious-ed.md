@@ -12,9 +12,9 @@ permalink: /WhyReligousEducation/
 
 **Whether it is worthwhile to study the Christian religion beyond the level accessible to a first grader?**
 
-*Then, one marshals together every good argument one can think of **against** the position one is ultimately going to take.  Since I think religious education is a worthwhile thing at least through middle schoole--I'm teaching it, after all--this means I'm going to start by making an argument for the opposite side.  Then, since this is a classroom activity, I'm going to ask the class to figure out themselves (with hopefully only a little guidance on my part) what's wrong with this argument.  The end result is that I want them to articulate for themselves what they think they should get out of this class.* 
+*Then, one marshals together every good argument one can think of **against** the position one is ultimately going to take.  Since I think religious education is a worthwhile thing at least through middle school--I'm teaching it, after all--this means I'm going to start by making an argument for the opposite side.  Then, since this is a classroom activity, I'm going to ask the class to figure out themselves (with hopefully only a little guidance on my part) what's wrong with this argument.  The end result is that I want them to articulate for themselves what they think they should get out of this class.* 
 
-*Here, then, are some arguments against having my class at all.  (This is, of couse, a little more fleshed out than I can do in one hour with the students.)*
+*Here, then, are some arguments against having my class at all.  (This is, of couse, a quite a bit more fleshed out than I can do in one hour with the students.)*
 
 **Objection 1.** Christianity is for everyone, not just the learned.  In fact, most Christians through history were illiterate peasants.  The basic message of the Faith--God's creation and love for us, His offering of His own Son to redeem us from sin and offer us the hope of heaven--is presumably clear enough that it got through.  In fact, it is quite clear to me that education in itself doesn't make one more virtuous or holier, not even education in academic ethics or religion.
 
@@ -28,7 +28,7 @@ permalink: /WhyReligousEducation/
 *Having presented the objections, I will now attempt to complete the disputation on my own.  In the next piece, I make a brief appeal to authority for my own position.*
 
 
-**On the contrary,** It is written "All Scripture, inspired of God is profitable to teach, to reprove, to correct, to instruct in justice." (2 Timothy 3:16), which shows that study of revelation beyond the bare-bones communicated to a child is profitable to the faithful.  Furthermore, Pope St. Peter commends us to "be ready always to give an answer to every man that asketh you a reason of the hope that is in you" (1 Peter 3:15), which indicates that we should be not able to state the faith but also to defend and commend it to unbelievers.
+**On the contrary,** It is written "All Scripture, inspired of God is profitable to teach, to reprove, to correct, to instruct in justice." (2 Timothy 3:16), which shows that study of revelation beyond the bare-bones communicated to a child is profitable to the faithful.  Furthermore, the first pope commends us to "be ready always to give an answer to every man that asketh you a reason of the hope that is in you" (1 Peter 3:15), which indicates that we should be not able to state the faith but also to defend and commend it to unbelievers.
 
 *Now I explain my position.*
 
