@@ -1,6 +1,7 @@
 ---
 layout: page
 title: A disputation on the purpose of religious education
+exclude: true
 permalink: /WhyReligousEducation/
 ---
 
