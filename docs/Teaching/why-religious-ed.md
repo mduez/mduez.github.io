@@ -6,9 +6,9 @@ permalink: /WhyReligousEducation/
 ---
 
 
-*I start my 5th-6th grade faith formation class in an unusual way each fall, by presenting an argument to them that the class I'm teaching is a waste of time.
+*I start my 5th-6th grade faith formation class in an unusual way each fall, by presenting an argument to them that the class I'm teaching is a waste of time.*
 
-You see, I explain, one of the practices of the great medieval scholastic theologians was to write disputations.  The form of a disputation is as follows.  First, one poses a question.  Here is our question.*
+*You see, I explain, one of the practices of the great medieval scholastic theologians was to write disputations.  The form of a disputation is as follows.  First, one poses a question.  Here is our question.*
 
 **Whether it is worthwhile to study the Christian religion beyond the level accessible to a first grader?**
 
