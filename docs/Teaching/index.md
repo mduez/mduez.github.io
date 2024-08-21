@@ -11,6 +11,8 @@ education.
 [A letter]({% link Teaching/for-graduate-students.md %}) for upper undergraduates and graduate
 students on the purpose of graduate education.
 
+[A disputed question]({% link Teaching/why-religious-ed.md %}) on whether Christians should continue catechesis all the way to middle school.
+
 Classes I have taught:
 
 WSU
@@ -38,5 +40,5 @@ WSU
 
 Other
 
-- 6th-grade religious education at Sacred Heart Catholic Church
+- 5th-6th grade religious education at Sacred Heart Catholic Church
      [Letter to parents]({% link Teaching/for-parents.md %})
