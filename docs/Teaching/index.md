@@ -20,6 +20,9 @@ WSU
 - Astronomy 135:  Introductory Astronomy  
     [Syllabus] ({% link /assets/Syllabi/Astro135.pdf %})
 
+- Astronomy 138:  Planetary Astronomy
+    [Syllabus] ({% link /assets/Syllabi/Astro138.pdf %})
+
 - Astronomy 345:  High-Energy Astrophysics  
     [Syllabus]({% link /assets/Syllabi/Astro345.pdf %})
 
