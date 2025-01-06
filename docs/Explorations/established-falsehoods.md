@@ -2,7 +2,7 @@
 layout: page
 title: "Against 'our values': Established falsehoods in academia"
 exclude: true
-permalink: /EstablishedFalsehoods/
+permalink: /AgainstOurValues/
 ---
 
 Table of Contents

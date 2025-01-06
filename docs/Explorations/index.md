@@ -17,3 +17,5 @@ Here I gather essays and thought experiments.
 [Thought experiment:  What would happen if nuclear fusion in a star were to magically stop?]({% link Explorations/Star-thought-experiment.md %})  (Intended audience:  first half for everyone, second half for upper undergraduates)
 
 [Question:  Do tachyons really travel faster than light?]({% link Explorations/Tachyons.md %}) (Intended audience:  upper undergraduate / graduate)
+
+[Against the academic consensus]({% link Explorations/established-falsehoods.md %}) which calls into question the ethical, political, historical, and ontological consensus reigning in Western universities, a plea that the big questions are not as settled as usually believed.  (Intended audience:  lay)
