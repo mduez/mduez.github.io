@@ -18,4 +18,6 @@ Here I gather essays and thought experiments.
 
 [Question:  Do tachyons really travel faster than light?]({% link Explorations/Tachyons.md %}) (Intended audience:  upper undergraduate / graduate)
 
+[Question:  If a new moon is out in the day, why can't I see it?]({% link Explorations/new-moon.md %}) (Intended audience:  lay)
+
 [Against the academic consensus]({% link Explorations/established-falsehoods.md %}) which calls into question the ethical, political, historical, and ontological consensus reigning in Western universities, a plea that the big questions are not as settled as usually believed.  (Intended audience:  lay)
