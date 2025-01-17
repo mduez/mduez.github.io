@@ -34,7 +34,7 @@ WSU
 - Astronomy 436:  Galaxies and Cosmology  
     [Syllabus]({% link /assets/Syllabi/Astro436.pdf %})
 
-- Astronomy 525:  Stellar Astrophysics 
+- Astronomy 525:  Stellar Astrophysics  
     [Announcement]({% link /assets/Syllabi/Astro525.pdf %})
 
 - Physics 581:  Astrophysical Fluid Dynamics  
