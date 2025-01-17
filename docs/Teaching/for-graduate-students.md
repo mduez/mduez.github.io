@@ -35,7 +35,7 @@ for good.
 
 I have since realized that one never entirely gets to the bottom of
 physics.  The troubling sense of vague confusion still comes to me
-sometime, but I have learned to listen to it.  I have learned to treat
+sometimes, but I have learned to listen to it.  I have learned to treat
 it as a friend.  Rather than a discouragement, it is an invitation to
 understand more deeply.
 
