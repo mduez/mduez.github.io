@@ -11,10 +11,6 @@ education.
 [A letter]({% link Teaching/for-graduate-students.md %}) for upper undergraduates and graduate
 students on the purpose of graduate education.
 
-[A disputed question]({% link Teaching/why-religious-ed.md %}) on whether Christians should continue catechesis all the way to middle school.
-
-[Against "our values"]({% link Explorations/established-falsehoods.md %}) on why universities should not impose a particular and questionable understanding of equity or inclusion.
-
 Classes I have taught:
 
 WSU
@@ -45,8 +41,3 @@ WSU
 
 - Physics 581:  General Relativity  
     [Syllabus]({% link /assets/Syllabi/GR.pdf %})
-
-Other
-
-- 5th-6th grade religious education at Sacred Heart Catholic Church
-     [Letter to parents]({% link Teaching/for-parents.md %})
