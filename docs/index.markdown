@@ -5,6 +5,6 @@
 layout: home
 ---
 
-Welcome to Matt Duez's homepage.
+Welcome to Matthew Duez's homepage.  I am a Professor of Physics and Astronomy at Washington State University.
 
 {% include image.html url="/assets/Images/MattReading.jpg" width="width:50%" description="Me communing with Aristotle.  " %}
