@@ -11,6 +11,8 @@ education.
 [A letter]({% link Teaching/for-graduate-students.md %}) for upper undergraduates and graduate
 students on the purpose of graduate education.
 
+[Against "our values"]({% link Explorations/established-falsehoods.md %}) on why universities should not impose a particular and questionable understanding of equity or inclusion.
+
 Classes I have taught:
 
 WSU
@@ -32,6 +34,9 @@ WSU
 
 - Astronomy 525:  Stellar Astrophysics  
     [Announcement]({% link /assets/Syllabi/Astro525.pdf %})
+
+- Physics 202:  Physics for Scientists and Engineers II
+    [Syllabus]{% link /assets/Syllabi/Phys202.pdf %})
 
 - Physics 581:  Astrophysical Fluid Dynamics  
     [Syllabus]({% link /assets/Syllabi/AstroFluids.pdf %})
